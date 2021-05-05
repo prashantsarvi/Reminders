@@ -1,0 +1,40 @@
+.create-notes-title{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+   
+  }
+  .modal-wrapper {
+    background: white;
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin: 100px auto 0;
+    transition: all .8s;
+    width: 100%;
+    border-radius: 2px;
+    z-index:10000;
+    }
+    
+    .modal-header {
+    background: #e2e2e2;
+    height: 60px;
+    padding: 2px;
+    }
+    
+    .modal-body {
+    padding: 2px;
+    height:300px;
+    }
+    
+    .modal-footer {
+    background: #e2e2e2;
+    height: 40px;
+    padding: 2px;
+    }
+
+    .btn:hover {
+        transform: none;
+        transition: "none";
+        background:  #6ec4db;
+        border:  #6ec4db;
+    }
